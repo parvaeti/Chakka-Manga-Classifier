@@ -3,7 +3,7 @@
 ## TEAM MEMBERS
         Akhil S George ;
         Sree Parvathi [ https://github.com/parvaeti/Chakka-Manga-Classifier ] ;
-        Sreya ;
+        Sreya Sunil ;
 ## TEAM ID
    BFH/recPw8NwJ5qXyVrDd/2021
 ## LINK TO PRODUCT WALKTHROUGH
