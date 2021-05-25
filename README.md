@@ -7,6 +7,7 @@
 ## TEAM ID
    BFH/recPw8NwJ5qXyVrDd/2021
 ## LINK TO PRODUCT WALKTHROUGH
+    https://github.com/parvaeti/Chakka-Manga-Classifier : GITHUB
    
 ## HOW IT WORKS ?
 ## LIBRARIES USED
