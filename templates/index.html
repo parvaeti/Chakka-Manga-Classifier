@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WELCOME TO THE CLASSIFIER</title>
+    <title>🍈 C & M CLASSIFIER</title>
 </head>
 <body>
-    <div style="background-image: url('https://i.pinimg.com/originals/ec/d6/85/ecd685893134e3055f351050b046843a.jpg');background-size: cover;background-repeat: no-repeat;background-position: center center;">
-    <h1 style="text-align: center;" style="color: #F8F8FF;" style="font-style: italic;">WELCOME TO THE C & M PREDICTOR</h1>
-    <div style="text-align: center;">
-    <img src="http://www.kew.org/mng/gallery/img_large/333.jpg" width="350px" height="350px" style="border-radius:50px;">
-    <img src="https://i.pinimg.com/originals/c5/96/07/c59607572421768bc2246a783e65f10a.jpg" width="350px"  height="350px" style="border-radius:50px;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">🍈 𝚃𝙷𝙴 𝙲𝙷𝙰𝙺𝙺𝙰 - 𝙼𝙰𝙽𝙶𝙰 𝙲𝙻𝙰𝚂𝚂𝙸𝙵𝙸𝙴𝚁</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">𝙷𝙾𝙼𝙴</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <h2 style="text-align: center;">THE CHAKKA - MANGA CLASSIFIER</h2>
-    <h3 style="text-align: center;" style="font-style: oblique;" style="font-style: inherit;">HELLO THERE , UPLOAD IMAGE TO PREDICT THE FRUIT</h3>
-    <div style="text-align: center;">
-    <form method="POST" enctype="multipart/form-data">
-        <input style="text-align: center;" type="file" name="img"/>
-        <input style="text-align: center;" type="submit" value="SUBMIT" style="background :#98fc03">
-    </form>
-    {% if prediction %}
-    <h3 style="text-align: center;" style="font-style: oblique;" style="font-style: inherit;"> {{prediction}} </h3>
-    {% endif %}
+  </nav>
+  <table class="table">
+      <tr>
+          <td>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://thumbs.dreamstime.com/b/watercolor-breadfruit-pattern-seamless-hand-painted-exotic-plants-73128170.jpg" class="d-block w-100" alt="..." height="500px" width="300px" >
+      </div>
+      <div class="carousel-item">
+        <img src="https://previews.123rf.com/images/mesori/mesori1904/mesori190400031/123467820-watercolor-tropical-seamless-pattern-with-yellow-mango-fruits-and-leaves-hand-drawn-illustration-iso.jpg" class="d-block w-100" alt="..."height="500px" width="300px">
+      </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+  </td></tr></table>
+      <h1 style="text-align: center;">ＴＨＥ ＣＨＡＫＫＡ － ＭＡＮＧＡ ＣＬＡＳＳＩＦＩＥＲ</h1>
+    <h2 style="text-align: center;" style="font-style: oblique;" style="font-style: inherit;">𝙷𝙴𝙻𝙻𝙾 𝚃𝙷𝙴𝚁𝙴 , 𝚄𝙿𝙻𝙾𝙰𝙳 𝙸𝙼𝙰𝙶𝙴 𝚃𝙾 𝙿𝚁𝙴𝙳𝙸𝙲𝚃 𝚃𝙷𝙴 𝙵𝚁𝚄𝙸𝚃</h2>
+    <div style="text-align: center;">
+        <form method="POST" enctype="multipart/form-data">
+            <input style="text-align: center;" type="file" name="img"/>
+            <input style="text-align: center;" type="submit" value="SUBMIT" style="background :#98fc03">
+        </form>
+        {% if prediction %}
+        <h3 style="text-align: center;" style="font-style: oblique;" style="font-style: inherit;"> {{prediction}} </h3>
+        {% endif %}
+        </div>
+</td></tr></table>
+   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
