@@ -11,6 +11,7 @@
    
 ## HOW IT WORKS ?
 ## LIBRARIES USED
+   Google Colab;
    Tensorflow;
    Matplotlib;
    Keras;
