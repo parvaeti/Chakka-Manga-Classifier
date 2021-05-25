@@ -1,17 +1,17 @@
 ## CHAKKA MANGA CLASSIFIER
      A Machine Learning program to identify Chakka and Manga by TEAM 22 . Its an awesome project given by TINKERHUB.
 ## TEAM MEMBERS
-   Akhil S George
-   Sree Parvathi
-   Sreya 
+   Akhil S George ;
+   Sree Parvathi ;
+   Sreya ;
 ## TEAM ID
    BFH/recPw8NwJ5qXyVrDd/2021
 ## LINK TO PRODUCT WALKTHROUGH
 ## HOW IT WORKS ?
 ## LIBRARIES USED
-   Tensorflow
-   Matplotlib
-   Keras
+   Tensorflow;
+   Matplotlib;
+   Keras;
 ## PROJECT STATUS
    Day 1
  |->Git basic concepts
