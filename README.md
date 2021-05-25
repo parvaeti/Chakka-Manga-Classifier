@@ -15,6 +15,7 @@
    Tensorflow;
    Matplotlib;
    Keras;
+   NumPy
 ## PROJECT STATUS
    Day 1
  |->Git basic concepts
