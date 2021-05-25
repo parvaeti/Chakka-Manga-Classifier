@@ -35,6 +35,3 @@ Day 5
  |->Working on local deployment
 Day 6
  |->Deployed and tested in local machine
-
-   
-
