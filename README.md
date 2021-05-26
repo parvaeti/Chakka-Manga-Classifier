@@ -1,21 +1,47 @@
+![BFH Banner](https://trello-attachments.s3.amazonaws.com/542e9c6316504d5797afbfb9/542e9c6316504d5797afbfc1/39dee8d993841943b5723510ce663233/Frame_19.png)
 ## CHAKKA MANGA CLASSIFIER
-     A Machine Learning program to identify Chakka and Manga by TEAM 22 . Its an awesome project given by TINKERHUB.
+     A Machine Learning program to identify Chakka or Manga by TEAM 22 . Its an awesome project given by TINKERHUB.
 ## TEAM MEMBERS
-        Akhil S George ;
-        Sree Parvathi [ https://github.com/parvaeti/Chakka-Manga-Classifier ] ;
-        Sreya Sunil ;
+       TEAM MEMBERS: <a href="https://github.com/parvaeti" target="_blank">Sree Parvathi</a> | <a href="#" target="_blank">Sreya Sunil M</a> | <a href="#" target="_blank">Akhil S George</a></p><br>
 ## TEAM ID
    BFH/recPw8NwJ5qXyVrDd/2021
 ## LINK TO PRODUCT WALKTHROUGH
     https://github.com/parvaeti/Chakka-Manga-Classifier : GITHUB
    
 ## HOW IT WORKS ?
+   <p>
+Step 1: open the app in web<br>
+Step 2: click choose file<br>
+step 3: choose the image you want to predict<br>
+step 4: click submit<br>
+</p>
+
 ## LIBRARIES USED
-   Google Colab;
-   Tensorflow;
-   Matplotlib;
-   Keras;
-   NumPy
+  <p>
+Flask<br>
+Tensorflow<br>
+Keras<br>
+matplotlib<br>
+sys<br>
+os<br>
+</p>
+## How to configure
+<p>
+step 1: install <a href="https://www.python.org/"> python </a><br>
+step 2: create a new virtual environment in the project folder (<a href="https://www.liquidweb.com/kb/how-to-setup-a-python-virtual-environment-on-windows-10/"> how to ?</a>)<br>
+step 3: activate the environment <br>
+step 4: install the required libraries mentioned above (<a href="https://packaging.python.org/tutorials/installing-packages/#use-pip-for-installing"> how to ?</a>)<br>
+</p>
+
+## How to Run
+<p>
+step 1: open cmd<br>
+step 2: open the file directory in cmd<br>
+step 3: activate the virtual environment<br>
+step 4: run the app.py file (using command: python app.py)<br>
+step 5: open the app in web browser by using the address shown in cmd after running step 4<br>
+</p>
+
 ## PROJECT STATUS
    Day 1
  |->Git basic concepts
