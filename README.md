@@ -7,6 +7,7 @@
    BFH/recPw8NwJ5qXyVrDd/2021
 ## LINK TO PRODUCT WALKTHROUGH
     https://github.com/parvaeti/Chakka-Manga-Classifier : GITHUB
+    https://drive.google.com/drive/folders/1IPHQzjqfAUkGp0z83HPep-uE4WVaTyqg?usp=sharing
    
 ## HOW IT WORKS ?
    <p>
